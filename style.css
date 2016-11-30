@@ -1,0 +1,151 @@
+
+h1 {
+	text-align: center;
+}
+
+
+.timer {
+	text-align: center;
+}
+
+.timer h3 {
+	font-size: 48px; 
+}
+
+#workTimerSection {
+	background-color: #B1FDB6;
+	padding-bottom: 30px;
+}
+
+#breakTimerSection {
+	background-color: #FFBDBD;
+	padding-bottom: 30px;
+}
+
+.displayTime {
+	font-size: 72px;
+}
+
+.timerButton:hover {
+	background-color: grey;
+
+}
+
+.addSubtract {
+	background-color: #ffcc00;
+	height: 60px;
+	border-radius: 10px;
+	margin: 3px;
+	cursor: pointer;
+}
+
+.addSubtract:hover {
+  	background-color: #cca300;
+}
+
+.addSubtract p {
+	font-size: 30px;
+	color: black;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.start {
+	background-color: green;
+	height: 60px;
+	border-radius: 10px;
+	margin: 3px;
+	cursor: pointer;
+}
+
+.start:hover{
+	background-color: #035503;
+}
+
+.start p {
+	font-size: 25px;
+	color: black;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.stop {
+	background-color: red;
+	height: 60px;
+	border-radius: 10px;
+	margin: 3px;
+	cursor: pointer;
+}
+
+.stop:hover {
+	background-color:#AF0505;
+}
+
+.stop p {
+	font-size: 25px;
+	color: black;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.breakTimerHidden {
+	display: none;
+}
+
+.workTimerHidden {
+	display: none;
+}
+
+.productive {
+  padding-top:30px;
+	text-align: center;
+	background-color: #E4E1E1;
+	padding-bottom: 30px;
+}
+.productive p{
+	font-size: 20px;
+}
+
+.productive h4 {
+  font-size:48px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.tweet {
+	height: 100%;
+	border-radius: 10px;
+	background-color: #0084b4;
+	cursor: pointer;
+	margin: 3px;
+}
+
+.tweetRow {
+	margin: 3px;
+}
+
+.tweet:hover {
+	background-color: #01759F;
+
+}
+
+.tweet p {
+	font-size: 3vw;
+	color: white;
+  top: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.customTime {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.customTime p {
+	padding-left: 12px;
+	padding-right: 12px;
+}
