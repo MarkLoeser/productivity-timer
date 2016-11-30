@@ -4,6 +4,9 @@ h1 {
 	font-size: 80px;
 }
 
+.changeTime{
+	margin-bottom: 15px;
+}
 
 .timer {
 	text-align: center;
@@ -123,4 +126,8 @@ h1 {
 	cursor: pointer;
 	display: block;
 	padding: 10px;
+}
+
+.tweetExplanation {
+	padding-top: 30px;
 }
