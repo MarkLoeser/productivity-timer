@@ -55,34 +55,32 @@
 			</div>
 		</div>
   </div>
-	<div class="productive">
-    <div class="container">
-		<div class="row">
-		 	<h4>Total Productivity Time</h4>
-		 	<p id="productivityTime"></p>
-		</div>
-		<div class="row tweetRow">
-			<div class="col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2 tweet" onclick="tweetIt()">
-					<p>Tweet Your Productivity Time</p>
+  	<div class="row container">
+		<div class="customTime col-xs-6">
+			<div>
+				<h3>Custom Time Settings</h3>
 			</div>
+			
+  				<input id="customWorkTime" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+  				<input type="button" value="Change Work Time" onClick="changeDefaultWorkTime()">
+  				<input id="customBreakTime" type="text">
+  				<input type="button" value="Change Break Time" onClick="changeDefaultBreakTime()">
 		</div>
-    </div>
+		<div class="productive col-xs-6">
+			<div class="row">
+				<h3>Total Productivity Time</h3>
+				<p id="productivityTime"></p>
+			</div>
+			<div class="col-xs-6 tweet" onclick="tweetIt()">
+				<img src="images/twitter.png">
+			</div>
+			<div class="col-xs-6">
+				<p>Tweet your productivity time</p>
+			</div>
 	</div>
-	<div class="container-fluid customTime">
-    <div class="container">
-		<div class= "row">
-			<h3>Custom Time Settings</h3>
-			<p>The default time is set at 25 minutes for the Work Timer and 5 minutes for the Break Timer. You can set custom times below by entering the amount (in minutes). The custom time is what the Work and Break Timers will begin at each time they start. 
-		</div>
-		<p id="defaultWork"></p>
-		<input id="customWorkTime" type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
-  		<input type="button" value="Change Work Time" onClick="changeDefaultWorkTime()">
 
-		<p id="defaultBreak">d</p>
-		<input id="customBreakTime" type="text">
-  		<input type="button" value="Change Break Time" onClick="changeDefaultBreakTime()">
-    </div>
-	</div>
+ 
+
 
 
 <script src="javascript.js" type="text/javascript"></script>
